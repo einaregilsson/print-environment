@@ -1,0 +1,14 @@
+name: 'Print Environment Variables and inputs'
+description: 'Prints environment variables'
+author: 'Einar Egilsson'
+inputs:
+  data:
+    description: 'Any data you want...'
+    required: false 
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+      
+branding:
+  icon: 'hash'  
+  color: 'green'
