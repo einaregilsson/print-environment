@@ -1,3 +1,3 @@
 FROM alpine:latest
-COPY env.sh /usr/bin/env.sh
-CMD ["env.sh"]
+COPY env.sh /env.sh
+ENTRYPOINT ["/env.sh"]
